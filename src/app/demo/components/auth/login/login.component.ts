@@ -19,7 +19,13 @@ import { InputTextModule } from 'primeng/inputtext';
         }
     `],
     standalone: true,
-    imports: [InputTextModule, PasswordModule, FormsModule, CheckboxModule, ButtonModule, RouterLink]
+    imports: [
+        InputTextModule, 
+        PasswordModule, 
+        FormsModule, 
+        CheckboxModule, 
+        ButtonModule, 
+        RouterLink]
 })
 export class LoginComponent {
 
